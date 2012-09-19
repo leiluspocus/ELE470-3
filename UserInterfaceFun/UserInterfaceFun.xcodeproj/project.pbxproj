@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302D499E1609509E006F55DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302D499D1609509E006F55DD /* UIKit.framework */; };
+		302D49A01609509F006F55DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302D499F1609509E006F55DD /* Foundation.framework */; };
+		302D49A21609509F006F55DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302D49A11609509F006F55DD /* CoreGraphics.framework */; };
+		302D49A81609509F006F55DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 302D49A61609509F006F55DD /* InfoPlist.strings */; };
+		302D49AA1609509F006F55DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D49A91609509F006F55DD /* main.m */; };
+		302D49AE1609509F006F55DD /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D49AD1609509F006F55DD /* BIDAppDelegate.m */; };
+		302D49B11609509F006F55DD /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D49B01609509F006F55DD /* BIDViewController.m */; };
+		302D49B41609509F006F55DD /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D49B21609509F006F55DD /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302D49991609509E006F55DD /* UserInterfaceFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserInterfaceFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302D499D1609509E006F55DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		302D499F1609509E006F55DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		302D49A11609509F006F55DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		302D49A51609509F006F55DD /* UserInterfaceFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserInterfaceFun-Info.plist"; sourceTree = "<group>"; };
+		302D49A71609509F006F55DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		302D49A91609509F006F55DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		302D49AB1609509F006F55DD /* UserInterfaceFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserInterfaceFun-Prefix.pch"; sourceTree = "<group>"; };
+		302D49AC1609509F006F55DD /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		302D49AD1609509F006F55DD /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		302D49AF1609509F006F55DD /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		302D49B01609509F006F55DD /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		302D49B31609509F006F55DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302D49961609509E006F55DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D499E1609509E006F55DD /* UIKit.framework in Frameworks */,
+				302D49A01609509F006F55DD /* Foundation.framework in Frameworks */,
+				302D49A21609509F006F55DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302D498E1609509E006F55DD = {
+			isa = PBXGroup;
+			children = (
+				302D49A31609509F006F55DD /* UserInterfaceFun */,
+				302D499C1609509E006F55DD /* Frameworks */,
+				302D499A1609509E006F55DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302D499A1609509E006F55DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302D49991609509E006F55DD /* UserInterfaceFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302D499C1609509E006F55DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302D499D1609509E006F55DD /* UIKit.framework */,
+				302D499F1609509E006F55DD /* Foundation.framework */,
+				302D49A11609509F006F55DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302D49A31609509F006F55DD /* UserInterfaceFun */ = {
+			isa = PBXGroup;
+			children = (
+				302D49AC1609509F006F55DD /* BIDAppDelegate.h */,
+				302D49AD1609509F006F55DD /* BIDAppDelegate.m */,
+				302D49AF1609509F006F55DD /* BIDViewController.h */,
+				302D49B01609509F006F55DD /* BIDViewController.m */,
+				302D49B21609509F006F55DD /* BIDViewController.xib */,
+				302D49A41609509F006F55DD /* Supporting Files */,
+			);
+			path = UserInterfaceFun;
+			sourceTree = "<group>";
+		};
+		302D49A41609509F006F55DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302D49A51609509F006F55DD /* UserInterfaceFun-Info.plist */,
+				302D49A61609509F006F55DD /* InfoPlist.strings */,
+				302D49A91609509F006F55DD /* main.m */,
+				302D49AB1609509F006F55DD /* UserInterfaceFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302D49981609509E006F55DD /* UserInterfaceFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302D49B71609509F006F55DD /* Build configuration list for PBXNativeTarget "UserInterfaceFun" */;
+			buildPhases = (
+				302D49951609509E006F55DD /* Sources */,
+				302D49961609509E006F55DD /* Frameworks */,
+				302D49971609509E006F55DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserInterfaceFun;
+			productName = UserInterfaceFun;
+			productReference = 302D49991609509E006F55DD /* UserInterfaceFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302D49901609509E006F55DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = URI;
+			};
+			buildConfigurationList = 302D49931609509E006F55DD /* Build configuration list for PBXProject "UserInterfaceFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 302D498E1609509E006F55DD;
+			productRefGroup = 302D499A1609509E006F55DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302D49981609509E006F55DD /* UserInterfaceFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302D49971609509E006F55DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D49A81609509F006F55DD /* InfoPlist.strings in Resources */,
+				302D49B41609509F006F55DD /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302D49951609509E006F55DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D49AA1609509F006F55DD /* main.m in Sources */,
+				302D49AE1609509F006F55DD /* BIDAppDelegate.m in Sources */,
+				302D49B11609509F006F55DD /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		302D49A61609509F006F55DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302D49A71609509F006F55DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		302D49B21609509F006F55DD /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302D49B31609509F006F55DD /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302D49B51609509F006F55DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		302D49B61609509F006F55DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302D49B81609509F006F55DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserInterfaceFun/UserInterfaceFun-Prefix.pch";
+				INFOPLIST_FILE = "UserInterfaceFun/UserInterfaceFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		302D49B91609509F006F55DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserInterfaceFun/UserInterfaceFun-Prefix.pch";
+				INFOPLIST_FILE = "UserInterfaceFun/UserInterfaceFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302D49931609509E006F55DD /* Build configuration list for PBXProject "UserInterfaceFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302D49B51609509F006F55DD /* Debug */,
+				302D49B61609509F006F55DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302D49B71609509F006F55DD /* Build configuration list for PBXNativeTarget "UserInterfaceFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302D49B81609509F006F55DD /* Debug */,
+				302D49B91609509F006F55DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302D49901609509E006F55DD /* Project object */;
+}
