@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController
+@interface BIDViewController : UIViewController <UIActionSheetDelegate>
 
 // Reference to the name field
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;

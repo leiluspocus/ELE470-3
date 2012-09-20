@@ -16,6 +16,8 @@
 		302D49B11609509F006F55DD /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D49B01609509F006F55DD /* BIDViewController.m */; };
 		302D49B41609509F006F55DD /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D49B21609509F006F55DD /* BIDViewController.xib */; };
 		302D49BF160966A9006F55DD /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 302D49BE160966A9006F55DD /* 100.jpg */; };
+		30AC5A38160AB97D00E63387 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 30AC5A36160AB97D00E63387 /* blueButton.png */; };
+		30AC5A39160AB97D00E63387 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 30AC5A37160AB97D00E63387 /* whiteButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		302D49B01609509F006F55DD /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		302D49B31609509F006F55DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 		302D49BE160966A9006F55DD /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
+		30AC5A36160AB97D00E63387 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		30AC5A37160AB97D00E63387 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		302D49BB1609542F006F55DD /* img */ = {
 			isa = PBXGroup;
 			children = (
+				30AC5A36160AB97D00E63387 /* blueButton.png */,
+				30AC5A37160AB97D00E63387 /* whiteButton.png */,
 				302D49BE160966A9006F55DD /* 100.jpg */,
 			);
 			name = img;
@@ -164,6 +170,8 @@
 				302D49A81609509F006F55DD /* InfoPlist.strings in Resources */,
 				302D49B41609509F006F55DD /* BIDViewController.xib in Resources */,
 				302D49BF160966A9006F55DD /* 100.jpg in Resources */,
+				30AC5A38160AB97D00E63387 /* blueButton.png in Resources */,
+				30AC5A39160AB97D00E63387 /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				302D49B91609509F006F55DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
